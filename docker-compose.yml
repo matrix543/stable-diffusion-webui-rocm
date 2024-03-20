@@ -13,10 +13,10 @@ services:
       # - COMMANDLINE_ARGS='--precision full --no-half'
     group_add:
       # Video Group Id: 44
-      - 44
+      - '44'
       # Render Group Id: 155
-      - 155
-    image: stable-diffusion-webui-rocm:rocm5.5
+      - '155'
+    image: stable-diffusion-webui-rocm:latest
     ipc: host
     network_mode: "host"
     shm_size: "8G"
